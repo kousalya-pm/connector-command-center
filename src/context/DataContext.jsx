@@ -133,7 +133,7 @@ export function DataProvider({ children }) {
       timestamp: at(5500), stage: 'Classify', phase: 'completed', detail: `${config.classificationCompletenessPct ?? 0}% classification completeness`,
     }, {
       connectorId: submission.id, tenantId: CURRENT_TENANT_ID, runId,
-      timestamp: at(6000), stage: 'Route', phase: 'started', detail: 'Writing to DataAI Command Graph',
+      timestamp: at(6000), stage: 'Route', phase: 'started', detail: 'Writing to Command Graph',
     }, {
       connectorId: submission.id, tenantId: CURRENT_TENANT_ID, runId,
       timestamp: at(6500), stage: 'Route', phase: 'completed', detail: 'Routed successfully',

@@ -92,7 +92,7 @@ export function versionForTenant(connector, tenantId, overrides = {}) {
 }
 
 // Pipeline stages shown in the per-connector flow diagram / detail view.
-// Stage names match the DataAI Command Graph Sankey (see DataFlowSankey):
+// Stage names match the Command Graph Sankey (see DataFlowSankey):
 // Collect/Catalog feed Data Discovery, Scan/Classify feed Classification —
 // and each pipeline ends by landing in the matching index, not a single
 // generic "graph ingest" step. Metadata-only connectors (e.g. identity

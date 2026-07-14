@@ -46,7 +46,7 @@ External Systems
 └──────────────────────────────────────┘
         │
         ▼
-DataAI Platform
+Command Graph
 (Security · Governance · Compliance · Privacy · Resilience)
 ```
 

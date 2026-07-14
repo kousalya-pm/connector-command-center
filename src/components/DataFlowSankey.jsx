@@ -221,7 +221,7 @@ export default function DataFlowSankey({ connectors, title }) {
     <div className="border border-[#d0d7de] rounded-lg bg-[#f6f8fa] p-3">
       <div className="flex items-start justify-between mb-2 gap-3">
         <div>
-          <p className="text-sm font-semibold text-[#1f2328]">{title || 'DataAI Command Graph'}</p>
+          <p className="text-sm font-semibold text-[#1f2328]">{title || 'Command Graph'}</p>
           <p className="text-[10px] text-[#6e7781]">Unified data intelligence layer across every connected source</p>
         </div>
         <div className="text-right">
