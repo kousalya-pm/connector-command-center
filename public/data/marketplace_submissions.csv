@@ -1,0 +1,11 @@
+id,name,icon,category,authPattern,creator_type,creator_name,creator_tenant_id,certStatus,submittedDate,reviewer
+oracle-netsuite,Oracle NetSuite,🧾,ERP,oauth2,acme,Acme Corp,,pending,2026-07-01,
+box,Box,📦,SaaS Collaboration,oauth2,acme,Acme Corp,,in_review,2026-06-18,d.kessler@acmecorp.com
+zendesk,Zendesk,🎧,SaaS Collaboration,api_key,partner,CloudBridge Systems,,certified,2026-04-02,d.kessler@acmecorp.com
+jira,Jira,🧩,SaaS Collaboration,oauth2,partner,DataNimbus,,in_review,2026-06-25,m.oyelaran@acmecorp.com
+epic-ehr,Epic EHR Connector,🏥,Database,certificate,customer,Meridian Health,meridian-health,in_review,2026-06-28,m.oyelaran@acmecorp.com
+sap-erp,SAP ERP,🏭,ERP,service_account,customer,Globex Manufacturing,globex,certified,2026-03-11,d.kessler@acmecorp.com
+legacy-ftp,Legacy FTP Connector,📼,On-Prem File System,api_key,acme,Acme Corp,,rejected,2026-05-05,d.kessler@acmecorp.com
+okta,Okta,🔐,Identity,oauth2,partner,SecureID Partners,,certified,2026-05-20,d.kessler@acmecorp.com
+redshift,Amazon Redshift,📈,Data Warehouse,service_account,acme,Acme Corp,,certified,2026-04-15,m.oyelaran@acmecorp.com
+dynamodb,Amazon DynamoDB,🗄️,Database,api_key,acme,Acme Corp,,certified,2026-05-02,d.kessler@acmecorp.com

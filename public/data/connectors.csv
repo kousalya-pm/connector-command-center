@@ -1,0 +1,13 @@
+id,name,icon,category,deploymentModel,certTier,authPattern,creator_type,creator_name,creator_tenant_id,health,scanDepth,adoptionPct,scanSuccessRatePct,timeToFirstScanMinutes,classificationCompletenessPct,objectsScanned
+amazon-s3,Amazon S3,🪣,Cloud Object Store,cloud,3,service_account,acme,Acme Corp,,healthy,full,94,99.2,4,97,18400000
+azure-blob,Azure Blob Storage,🪣,Cloud Object Store,cloud,3,oauth2,acme,Acme Corp,,healthy,full,81,98.6,6,95,9200000
+snowflake,Snowflake,❄️,Data Warehouse,cloud,2,oauth2,acme,Acme Corp,,healthy,full,88,99.7,3,99,4100000
+bigquery,Google BigQuery,📊,Data Warehouse,cloud,2,service_account,acme,Acme Corp,,degraded,full,34,91.4,11,78,640000
+sharepoint,SharePoint Online,🗂️,SaaS Collaboration,cloud,3,oauth2,acme,Acme Corp,,healthy,full,97,97.8,5,96,22800000
+google-drive,Google Drive,📁,SaaS Collaboration,cloud,2,oauth2,acme,Acme Corp,,healthy,full,76,98.9,4,94,6700000
+slack,Slack,💬,SaaS Collaboration,cloud,2,oauth2,partner,DataNimbus,,healthy,full,41,95.1,8,82,1900000
+postgresql,PostgreSQL,🐘,Database,hybrid,3,certificate,acme,Acme Corp,,healthy,full,90,99.4,2,98,3300000
+mongodb,MongoDB Atlas,🍃,Database,cloud,2,api_key,acme,Acme Corp,,healthy,full,68,98.1,5,93,2100000
+workday,Workday,👥,Identity,cloud,4,oauth2,partner,Workday Alliance Program,,healthy,metadata_only,72,99.0,7,,480000
+active-directory,Active Directory,🔑,Identity,on-prem,3,certificate,acme,Acme Corp,,healthy,metadata_only,85,99.5,3,,220000
+nfs-share,NFS File Share,🖥️,On-Prem File System,on-prem,1,api_key,acme,Acme Corp,,down,full,12,64.0,22,55,90000

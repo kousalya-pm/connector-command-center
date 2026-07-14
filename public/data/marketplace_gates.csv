@@ -1,0 +1,41 @@
+submission_id,gate_name,status
+oracle-netsuite,Schema / manifest validation,pending
+oracle-netsuite,Auth pattern review,pending
+oracle-netsuite,Security scan,pending
+oracle-netsuite,Docs & support commitment,pending
+box,Schema / manifest validation,passed
+box,Auth pattern review,passed
+box,Security scan,in_progress
+box,Docs & support commitment,pending
+zendesk,Schema / manifest validation,passed
+zendesk,Auth pattern review,passed
+zendesk,Security scan,passed
+zendesk,Docs & support commitment,passed
+jira,Schema / manifest validation,passed
+jira,Auth pattern review,passed
+jira,Security scan,pending
+jira,Docs & support commitment,passed
+epic-ehr,Schema / manifest validation,passed
+epic-ehr,Auth pattern review,in_progress
+epic-ehr,Security scan,pending
+epic-ehr,Docs & support commitment,passed
+sap-erp,Schema / manifest validation,passed
+sap-erp,Auth pattern review,passed
+sap-erp,Security scan,passed
+sap-erp,Docs & support commitment,passed
+legacy-ftp,Schema / manifest validation,failed
+legacy-ftp,Auth pattern review,failed
+legacy-ftp,Security scan,failed
+legacy-ftp,Docs & support commitment,passed
+okta,Schema / manifest validation,passed
+okta,Auth pattern review,passed
+okta,Security scan,passed
+okta,Docs & support commitment,passed
+redshift,Schema / manifest validation,passed
+redshift,Auth pattern review,passed
+redshift,Security scan,passed
+redshift,Docs & support commitment,passed
+dynamodb,Schema / manifest validation,passed
+dynamodb,Auth pattern review,passed
+dynamodb,Security scan,passed
+dynamodb,Docs & support commitment,passed
