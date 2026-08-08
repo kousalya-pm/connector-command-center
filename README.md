@@ -2,7 +2,7 @@
 
 *A product thinking exercise, not a production application.*
 
-After exploring large-scale connector ecosystems, I wanted to work through one question: if I were the PM responsible for 300+ connectors, what operating model would I build?
+After exploring large-scale connector ecosystems, I wanted to work through one question: if I were the PM responsible for hundreds connectors, what operating model would I build?
 
 The result is a prototype that demonstrates product strategy — the implementation is a vehicle for the thinking.
 
@@ -12,7 +12,7 @@ The result is a prototype that demonstrates product strategy — the implementat
 
 The failure mode for connector ecosystems at scale is **every connector becoming its own engineering project**.
 
-Connectors aren't features. They're products — each with its own lifecycle, auth model, versioning story, and maintenance cost. A library of 300+ connectors built by different teams at different times will drift into inconsistency unless the platform team builds deliberate governance around it. This prototype explores what that governance looks like.
+Connectors aren't features. They're products — each with its own lifecycle, auth model, versioning story, and maintenance cost. A library of hundreds connectors built by different teams at different times will drift into inconsistency unless the platform team builds deliberate governance around it. This prototype explores what that governance looks like.
 
 ---
 
